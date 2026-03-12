@@ -1,0 +1,19 @@
+Salesforce Org (Custom Objects)
+  ├── Product__c      → Products, Category, Subcategory, Unit Price
+  ├── Customer__c     → Segment, Province, City, Channel
+  ├── Store__c        → Store locations
+  ├── Promotion__c    → Promotion types and rules
+  ├── Sales__c        → Orders, Revenue, Profit, Dates
+  └── Web_Traffic__c  → Sessions, Add to Carts, Checkouts
+         ↓
+Power BI Salesforce Connector (Direct API Pull)
+         ↓
+Power Query Editor
+  ├── Normalized and renamed columns
+  ├── Merged tables across Sales, Products, Customers
+  ├── Created calculated columns (Profit Margin, Conversion Rate, Cart Abandonment)
+  └── Built date dimension from Sales date fields
+         ↓
+Power BI Data Model (Star Schema)
+         ↓
+4-Page Interactive Dashboard
